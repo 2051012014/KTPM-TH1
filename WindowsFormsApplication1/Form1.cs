@@ -19,13 +19,10 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != String.Empty && textBox2.Text != String.Empty)
-            {
                 double a = double.Parse(textBox1.Text);
                 double b = double.Parse(textBox2.Text);
                 double c = a + b;
                 textBox3.Text = c.ToString();
-            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
