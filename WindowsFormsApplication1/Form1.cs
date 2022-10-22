@@ -22,7 +22,7 @@ namespace WindowsFormsApplication1
                 double a = double.Parse(textBox1.Text);
                 double b = double.Parse(textBox2.Text);
                 double c = a + b;
-                textBox3.Text = c.ToString();
+                textBox4.Text = c.ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -58,6 +58,32 @@ namespace WindowsFormsApplication1
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            double c = a * b;
+            textBox4.Text = c.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            double c = a / b;
+            textBox4.Text = c.ToString();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
